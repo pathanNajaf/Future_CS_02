@@ -1,0 +1,57 @@
+#Screenshots are in another files as proof
+Future Interns Cybersecurity Task 2 Incident Report: 
+ 
+This document is the part of my second tasks of the internship at Future Interns. 
+In this task, I was given a log file containing record of user activity on a website. My goal was to analyze the log and list at least three to five instances of potentially malicious activity. 
+ 
+The following is a detailed overview of the suspicious acitiviites detected with a description of the potential risks if they are not addressed. 
+ 
+Incident 1- Ransomware Behaviour  
+➢	User: Bob 
+➢	Severity: High 
+➢	Timeline: 2025-07-03/ 09:10:14  ➢ IP: 172.16.0.3 ➢ Impact: 
+The user was flagged with suspicious encryption acitivity that indicates ransomware patterns. This can lead to critical data being encrypted to demand a ransom. 
+➢	Remediation:  
+Isolate the affected system ASAP from the network and run malware scans, and restore data from backups. 
+ 
+   
+Incident 2: Spyware 
+➢	User: Alice 
+➢	Severity: High 
+➢	IP: 172.16.0.3 
+➢	Timeline: 2025-07-03/ 04:41:14 ➢ Impact: 
+Spyware can monitor key activities, capture screenshots, and/or steal credentials and browsing data. 
+➢	Remediation: 
+Remove spyware using the specific tools like MalwareBytes, reset affected accounts, and enable enhanced monitoring for suspicious outbound traffic. 
+  
+ 
+ 
+ 
+Incident 3: Worm infection attempt 
+➢	User: Bob 
+➢	Severity: Medium to high(Depends on what it does) 
+➢	IP: 203.0.113.77 
+➢	Timeline: 2025-07-03 05:06:14 ➢ Impact: 
+Can disrupt the whole network, increase load on system, 
+corrupt data, and exploit vulnerabilities, ➢ Remediation: 
+-Immediately block suspicious IP addresses and isolate 
+compromised devices 
+-Perform a full scan across all connected devices as worm spreads from device to device 
+-Review and update firewall criteria for information flow 
+-Educate users and employees about avoiding untrusted network share
+  
+ 
+Incident 4: Rootkit Detected 
+➢	User: Eve And Alice  
+➢	Severity: Critical. Operates at deep system level, often kernel 
+➢	IP: 10.0.0.5(Eve) & 198.51.100.42(Alice) ➢ Timeline: 2025-07-03 From 04:19:14 To 07:51:14  ➢ Impact: 
+Can give attacker a persistent administrative access to systems, bypassing security controls. It can lead to complete system compromise, credential stolen, data exfiltration and long term espionage without detection ➢ Remediation: 
+-Isolate the affected system immediately to prevent lateral movement 
+-Perform a forensic analysis to confirm presence and type of rootkit 
+-Rootkits are fully removable, thus backing up and then reinstalling the whole OS is highly recommended  
+ 
+ 
+ 
+  
+ 
+ 
